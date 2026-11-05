@@ -140,35 +140,6 @@ void SysTick_Handler(void)
 /* please refer to the startup file (startup_stm32wb0x.s).                    */
 /******************************************************************************/
 
-/**
-  * @brief This function handles GPIOA interrupt.
-  */
-void GPIOA_IRQHandler(void)
-{
-  /* USER CODE BEGIN GPIOA_IRQn 0 */
-
-  /* USER CODE END GPIOA_IRQn 0 */
-  BSP_PB_IRQHandler(GPIOA,B1_PIN);
-  /* USER CODE BEGIN GPIOA_IRQn 1 */
-
-  /* USER CODE END GPIOA_IRQn 1 */
-}
-
-/**
-  * @brief This function handles GPIOB interrupt.
-  */
-void GPIOB_IRQHandler(void)
-{
-  /* USER CODE BEGIN GPIOB_IRQn 0 */
-
-  /* USER CODE END GPIOB_IRQn 0 */
-  BSP_PB_IRQHandler(GPIOB,B3_PIN);
-  BSP_PB_IRQHandler(GPIOB,B2_PIN);
-  /* USER CODE BEGIN GPIOB_IRQn 1 */
-
-  /* USER CODE END GPIOB_IRQn 1 */
-}
-
 /* USER CODE BEGIN 1 */
 
 /* USER CODE END 1 */

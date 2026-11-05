@@ -30,7 +30,6 @@ extern "C" {
 #include "stm32wb0x_hal.h"
 
 #include "stm32wb0x_nucleo.h"
-#include <stdio.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -68,12 +67,20 @@ void Error_Handler(void);
 #define SPI3_NSS_GPIO_Port GPIOA
 #define SPI3_MOSI_Pin GPIO_PIN_11
 #define SPI3_MOSI_GPIO_Port GPIOA
+#define SPI_CS_Pin GPIO_PIN_15
+#define SPI_CS_GPIO_Port GPIOB
+#define BUSY_Pin GPIO_PIN_14
+#define BUSY_GPIO_Port GPIOB
 #define OSC32_IN_Pin GPIO_PIN_13
 #define OSC32_IN_GPIO_Port GPIOB
 #define OSC32_OUT_Pin GPIO_PIN_12
 #define OSC32_OUT_GPIO_Port GPIOB
-#define I2C1_SDA_Pin GPIO_PIN_7
-#define I2C1_SDA_GPIO_Port GPIOB
+#define DC_Pin GPIO_PIN_7
+#define DC_GPIO_Port GPIOB
+#define RST_Pin GPIO_PIN_6
+#define RST_GPIO_Port GPIOB
+#define PWR_Pin GPIO_PIN_5
+#define PWR_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

@@ -49,8 +49,7 @@
 #define _DEV_CONFIG_H_
 
 #include "main.h"
-#include "stm32wb0x_hal.h"
-#include "stm32wb0x_hal_gpio.h"
+#include "EDP_pin_map.h"
 #include <stdint.h>
 #include <stdio.h>
 
