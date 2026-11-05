@@ -18,6 +18,9 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "e-ink_test/DEV_Config.h"
+#include "e-ink_test/EPD_Test.h"
+#include "stm32wb0x_hal_gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -105,25 +108,34 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_RESET);
-
+  int delay = 1000; //1 sec
 
   while (1)
   {
 
     /* -- Sample board code for User push-button in interrupt mode ---- */
+    ///*
     BSP_LED_Toggle(LED_BLUE);
-    HAL_Delay(250);
+    HAL_Delay(delay);
 
     BSP_LED_Toggle(LED_GREEN);
-    HAL_Delay(250);
+    HAL_Delay(delay);
 
     BSP_LED_Toggle(LED_RED);
-    HAL_Delay(250);
+    HAL_Delay(delay);
+    //*/
 
     /* USER CODE END WHILE */
+    
 
     /* USER CODE BEGIN 3 */
+    //Pin test
+    /*
+    HAL_GPIO_WritePin(EPD_RST_PIN, GPIO_PIN_SET);
+    HAL_Delay(delay);
+    HAL_GPIO_WritePin(EPD_RST_PIN, GPIO_PIN_RESET);
+    HAL_Delay(delay);
+    */
   }
   /* USER CODE END 3 */
 }
