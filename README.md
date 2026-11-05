@@ -2,24 +2,31 @@
 
 ## <ins>Pin header CN4</ins>
 
-PIN3 -> PB6 (RST)
+|Pin|WB09KE Pin|Function|
+|---|---|---|
+|3|PB6|RST|
+|5|PB7|DC|
+|7|VDD|-|
 
-PIN5 -> PB7 (DC)
 
-PIN7 -> VDD
+PIN 3 -> PB6 (RST)
 
-PIN9 -> GND
+PIN 5 -> PB7 (DC)
 
-PIN11 -> PB3 (SPI3_SCK)
+PIN 7 -> VDD
 
-PIN13 -> PA8 (SPI3_MISO)
+PIN 9 -> GND
 
-PIN15 -> PA11 (SPI3_MOSI)
+PIN 11 -> PB3 (SPI3_SCK)
 
-PIN17 -> PA9 (SPI3__NSS)
+PIN 13 -> PA8 (SPI3_MISO)
 
-PIN19 -> PB14 (BUSY)
+PIN 15 -> PA11 (SPI3_MOSI)
 
-PIN21 -> PB15 (CS)
+PIN 17 -> PA9 (SPI3__NSS)
 
-PIN30 -> PB5 (PWR)
+PIN 19 -> PB14 (BUSY)
+
+PIN 21 -> PB15 (CS)
+
+PIN 30 -> PB5 (PWR)
