@@ -1,6 +1,6 @@
-# ST morph to WB09KE pin translation
+# E-ink display demo w/ NUCLEO-WB09KE
 
-<ins>CN4</ins>
+## <ins>Pin header CN4</ins>
 
 PIN3 -> PB6 (RST)
 
