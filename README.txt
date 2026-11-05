@@ -1,4 +1,4 @@
-ARDUINO shield to WB09KE pin translation
+ST morph to WB09KE pin translation
 
 CN4
 ========
@@ -12,10 +12,10 @@ PIN15 -> PA11 (SPI3_MOSI)
 PIN17 -> PA9 (SPI3__NSS)
 PIN19 -> PB14 (BUSY)
 PIN21 -> PB15 (CS)
+PIN30 -> PB5 (PWR)
 
 CN8
 =========
-
 
 CN5
 =========
