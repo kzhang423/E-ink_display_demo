@@ -1,5 +1,9 @@
 # E-ink display demo w/ NUCLEO-WB09KE
 
+## Display information and configuration
+
+The display used in this demo is a [296x128 2.9" e-ink display](https://www.waveshare.com/2.9inch-e-paper.htm) by WaveShare.
+
 ## ST morpho pinout translation
 
 ### Pin header CN4
@@ -18,25 +22,3 @@
 |21|PB15|CS|
 |30|PB5|PWR|
 
-
-PIN 3 -> PB6 (RST)
-
-PIN 5 -> PB7 (DC)
-
-PIN 7 -> VDD
-
-PIN 9 -> GND
-
-PIN 11 -> PB3 (SPI3_SCK)
-
-PIN 13 -> PA8 (SPI3_MISO)
-
-PIN 15 -> PA11 (SPI3_MOSI)
-
-PIN 17 -> PA9 (SPI3_NSS)
-
-PIN 19 -> PB14 (BUSY)
-
-PIN 21 -> PB15 (CS)
-
-PIN 30 -> PB5 (PWR)
