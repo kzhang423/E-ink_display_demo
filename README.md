@@ -15,6 +15,7 @@ The display used in this demo is a [296x128 2.9" e-ink display](https://www.wave
 
 ### SPI Baud Rate
 
+The SPI baud rate is configured to 2 MBits/s. This is the maximum before communication with the display fails. This calculation comes from the following:
 
 
 
