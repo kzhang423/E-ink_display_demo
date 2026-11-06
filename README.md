@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This demo demonstrates communication with an e-ink display via **SPI**. 
+This demo demonstrates communication with an e-ink display via SPI. 
 
 This demo uses an existing [STM32 demo](https://github.com/waveshareteam/e-Paper) by WaveShare and configures it to work with the NUCLEO-WB09KE development board.
 
