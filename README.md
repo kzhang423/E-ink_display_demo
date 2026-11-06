@@ -1,5 +1,9 @@
 # E-ink display demo w/ NUCLEO-WB09KE
 
+## Introduction
+
+This demo uses a preexisting [STM32 demo](https://github.com/waveshareteam/e-Paper) provided by WaveShare and configures it for compatibility with the NUCLEO-WB09KE development board.
+
 ## Display information and configuration
 
 The display used in this demo is a [296x128 2.9" e-ink display](https://www.waveshare.com/2.9inch-e-paper.htm) by WaveShare.
