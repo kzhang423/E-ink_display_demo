@@ -17,11 +17,11 @@ The display used in this demo is a [296x128 2.9" e-ink display](https://www.wave
 
 The SPI baud rate is configured to 2 MBits/s. This is the maximum before communication with the display fails. This calculation comes from the following:
 
-The APB clock runs at 64 MHz, and the maximum SCL frequency is 2.5 MHz. Therefore, the minimum prescaler is the minimum power of two greater than or equal to $$\frac{64}{2.5} = 25.6$$, which is 
+The APB clock runs at 64 MHz, and the maximum SCL frequency is 2.5 MHz. Therefore, the minimum prescaler is the minimum power of two greater than or equal to $$\frac{64}{2.5} = 25.6$$, which is 32, giving 2 MBits/s.
 
 ## ST morpho pinout translation
 
-The WB09KE is mounted on top of an STLink board and cannot be disconnected. WB09KE pins are instead routed to ST morpho pins along the edges of the STLink board.
+The WB09KE is mounted on top of an STLink board and cannot be disconnected. WB09KE pins are routed to ST morpho pins along the edges of the STLink board.
 The following table(s) list relevant pins to this demo and their mapping to the actual microcontroller.
 
 ### Pin header CN4
