@@ -11,6 +11,8 @@ This demo uses an existing [STM32 demo](https://github.com/waveshareteam/e-Paper
 
 The display used in this demo is a [296x128 2.9" e-ink display](https://www.waveshare.com/2.9inch-e-paper.htm) by WaveShare. It supports 3-wire/4-wire SPI, selectable by the BS1 pin. The demo uses the 4-wire SPI configuration (BS1=0).
 
+
+
 ![](https://www.waveshare.com/w/upload/thumb/d/df/2.9inch-e-Paper-1.jpg/300px-2.9inch-e-Paper-1.jpg)
 
 ### SPI Baud Rate
@@ -40,5 +42,9 @@ The following table(s) list relevant pins to this demo and their mapping to the 
 |21|PB15|CS|
 |30|PB5|PWR|
 
-## Pin functions
+## Signal functions
+
+|Signal|Function|
+|---|---|
+|RST|Active-low reset signal to display|
 
