@@ -27,8 +27,8 @@
 # THE SOFTWARE.
 #
 ******************************************************************************/
-#include "EPD_Test.h"
-#include "EPD_2in9_V3.h"
+#include "e-ink_test/EPD_Test.h"
+#include "e-ink_test/EPD_2in9_V3.h"
 
 int EPD_test(void)
 {

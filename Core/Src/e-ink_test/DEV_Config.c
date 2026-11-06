@@ -29,7 +29,7 @@
 # THE SOFTWARE.
 #
 ******************************************************************************/
-#include "DEV_Config.h"
+#include "e-ink_test/DEV_Config.h"
 #include "stm32wb0x_hal_spi.h"
 
 extern SPI_HandleTypeDef hspi1;

@@ -36,7 +36,7 @@
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include "fonts.h"
+#include "e-ink_test/fonts.h"
 
 // 
 //  Font data for Courier New 12pt

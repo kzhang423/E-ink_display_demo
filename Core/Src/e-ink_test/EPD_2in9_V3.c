@@ -28,8 +28,8 @@
 # THE SOFTWARE.
 #
 ******************************************************************************/
-#include "EPD_2in9_V3.h"
-#include "Debug.h"
+#include "e-ink_test/EPD_2in9_V3.h"
+#include "e-ink_test/Debug.h"
 #include <time.h> 
 
 /******************************************************************************
