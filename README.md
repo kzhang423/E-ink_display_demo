@@ -1,4 +1,4 @@
-# E-ink display demo w/ NUCLEO-WB09KE
+# E-ink Display Demo w/ NUCLEO-WB09KE
 
 ## Introduction
 
@@ -9,7 +9,8 @@ This demo uses an existing [STM32 demo](https://github.com/waveshareteam/e-Paper
 
 ## Display information and configuration
 
-The display used in this demo is a [296x128 2.9" e-ink display](https://www.waveshare.com/2.9inch-e-paper.htm) by WaveShare.
+The display used in this demo is a [296x128 2.9" e-ink display](https://www.waveshare.com/2.9inch-e-paper.htm) by WaveShare. It supports 3-wire/4-wire SPI, selectable by the BS1 pin.
+
 
 ## ST morpho pinout translation
 
@@ -31,4 +32,6 @@ The following table(s) list relevant pins to this demo and their mapping to the 
 |19|PB14|BUSY|
 |21|PB15|CS|
 |30|PB5|PWR|
+
+## Pin functions
 
