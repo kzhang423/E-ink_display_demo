@@ -13,6 +13,9 @@ The display used in this demo is a [296x128 2.9" e-ink display](https://www.wave
 
 ## ST morpho pinout translation
 
+The WB09KE is mounted on top of an STLink board and cannot be disconnected. WB09KE pins are instead routed to ST morpho pins along the edges of the STLink board.
+The following table(s) list relevant pins to this demo and their mapping to the actual microcontroller.
+
 ### Pin header CN4
 
 |Pin|WB09KE Pin|Signal|
