@@ -19,7 +19,7 @@ The display used in this demo is a [296x128 2.9" e-ink display](https://www.wave
 
 The SPI baud rate is configured to 2 MBits/s. This is the maximum before communication with the display fails. This calculation comes from the following:
 
-The APB clock runs at 64 MHz, and the maximum SCL frequency is 2.5 MHz. Therefore, the minimum prescaler is the minimum power of two greater than or equal to $$\frac{64}{2.5} = 25.6$$, which is 32, giving 2 MBits/s.
+The APB clock runs at 64 MHz, and the maximum SCK frequency is 2.5 MHz. Therefore, the minimum prescaler is the minimum power of two greater than or equal to $$\frac{64}{2.5} = 25.6$$, which is 32, giving 2 MBits/s.
 
 ## ST morpho pinout translation
 
@@ -34,10 +34,10 @@ The following table(s) list relevant pins to this demo and their mapping to the 
 |5|PB7|DC|
 |7|VDD|-|
 |9|GND|-|
-|11|PB3|SPI3_SCK|
-|13|PA8|SPI3_MISO|
-|15|PA11|SPI3_MOSI|
-|17|PA9|SPI3_NSS|
+|11|PB3|SCk|
+|13|PA8|MISO|
+|15|PA11|MOSI|
+|17|PA9|NSS|
 |19|PB14|BUSY|
 |21|PB15|CS|
 |30|PB5|PWR|
@@ -47,4 +47,11 @@ The following table(s) list relevant pins to this demo and their mapping to the 
 |Signal|Function|
 |---|---|
 |RST|Active-low reset signal to display|
-
+|DC|Data/command control signal, write command when level is low and write data when level is high|
+|SCK|Serial clock|
+|MISO|Data signal for writing commands or data|
+|MOSI|Not used|
+|NSS|Not used|
+|BUSY|Set high if the display driver is busy outputting display waveform or communicating with the digital temperature sensor|
+|CS|Enables communication between MCU and driver when set low|
+|PWR|VDD when high and GND when low, supplies power to the display|
