@@ -97,8 +97,8 @@ int EPD_test(void)
     Paint_DrawNum(10, 33, 123456789, &Font12, BLACK, WHITE);
     Paint_DrawNum(10, 50, 987654321, &Font16, WHITE, BLACK);
 
-    Paint_DrawString_CN(130, 0,"���abc", &Font12CN, BLACK, WHITE);
-    Paint_DrawString_CN(130, 20, "΢ѩ����", &Font24CN, WHITE, BLACK);
+   // Paint_DrawString_CN(130, 0,"���abc", &Font12CN, BLACK, WHITE);
+   // Paint_DrawString_CN(130, 20, "΢ѩ����", &Font24CN, WHITE, BLACK);
 
     EPD_2IN9_V3_Display_Fast(BlackImage);
     DEV_Delay_ms(3000);

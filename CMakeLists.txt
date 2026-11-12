@@ -44,12 +44,21 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
-    # Add user sources here
+    Core/Src/e-ink_test/DEV_Config.c
+    Core/Src/e-ink_test/EPD_2in9_V3.c
+    Core/Src/e-ink_test/EPD_2in9_V3_test.c
+    Core/Src/e-ink_test/GUI_Paint.c
+    Core/Src/e-ink_test/ImageData.c
+    Core/Src/e-ink_test/fonts/font8.c
+    Core/Src/e-ink_test/fonts/font12.c
+    Core/Src/e-ink_test/fonts/font16.c
+    Core/Src/e-ink_test/fonts/font20.c
+    Core/Src/e-ink_test/fonts/font24.c
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
-    # Add user defined include paths
+    Core/Inc/e-ink_test
 )
 
 # Add project symbols (macros)

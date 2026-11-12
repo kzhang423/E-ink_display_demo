@@ -18,7 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "e-ink_test/DEV_Config.h"
+//#include "e-ink_test/DEV_Config.h"
 #include "e-ink_test/EPD_Test.h"
 #include "stm32wb0x_hal_gpio.h"
 
@@ -109,6 +109,9 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   int delay = 1000; //1 sec
+
+  //Display test
+  EPD_test();
 
   while (1)
   {
