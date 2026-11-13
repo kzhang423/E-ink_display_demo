@@ -34,7 +34,7 @@ The following table(s) list relevant pins to this demo and their mapping to the 
 |5|PB7|DC|
 |7|VDD|-|
 |9|GND|-|
-|11|PB3|SCk|
+|11|PB3|SCK|
 |13|PA8|MISO|
 |15|PA11|MOSI|
 |17|PA9|NSS|
